@@ -34,6 +34,7 @@
   .book-badge { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 3px 10px; border-radius: 50px; margin-bottom: 8px; }
   .badge-1 { background: var(--pink-lt); color: #A0607A; }
   .badge-2 { background: var(--amber-lt); color: #8A5830; }
+  .badge-3 { background: var(--green-lt); color: #4F7A4E; }
   .book-title { font-family: 'Lora', serif; font-size: 1.05rem; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 6px; }
   .book-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.65; margin-bottom: 10px; }
   .book-age { font-size: 0.78rem; color: var(--green); font-weight: 600; margin-bottom: 14px; }
@@ -49,6 +50,7 @@
   .dot { width: 8px; height: 8px; border-radius: 50%; }
   .dot-filled { background: var(--green); }
   .dot-filled-2 { background: var(--pink); }
+  .dot-filled-3 { background: var(--amber); }
   .dot-empty { background: transparent; border: 2px solid var(--border); }
   footer { text-align: center; padding: 2rem 1.5rem; font-size: 0.78rem; color: var(--muted); border-top: 1px solid var(--border); background: var(--pink-lt); letter-spacing: 0.04em; }
   @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
@@ -86,9 +88,15 @@
       <a class="amazon-btn" href="https://a.co/d/07m7enOZ" target="_blank">View on Amazon →</a>
     </div>
   </div>
-  <div class="coming-soon">
-    <div class="coming-soon-title">📖 Book 3 — Coming Soon!</div>
-    <p>The Making Space Series continues...</p>
+  <div class="book-card">
+    <img class="book-cover" src="book3-toolbox-cover.jpg" alt="Dad and Me and the Toolbox cover" />
+    <div class="book-meta">
+      <span class="book-badge badge-3">Book 3</span>
+      <div class="book-title">Dad and Me and the Toolbox</div>
+      <p class="book-desc">Some garages are full of more than tools. They hold projects no one has gotten to yet, and boxes no one has opened in years. And somewhere in the middle of all of it is a little boy who just wants to spend time with the dad he loves. This is a story about building shelves, racing timers, and sawdust on the floor. But really, it is a story about what gets built between two people. For every child who just wants to say, "I want to be with you," and for every parent who is finally ready to make space.</p>
+      <div class="book-age">✦ Perfect for ages 7–10</div>
+      <a class="amazon-btn" href="https://www.amazon.com/gp/product/1972827030" target="_blank">View on Amazon →</a>
+    </div>
   </div>
   <div class="series-banner">
     <div class="series-banner-title">A 5-Book Series</div>
@@ -96,7 +104,7 @@
     <div class="dots">
       <div class="dot dot-filled"></div>
       <div class="dot dot-filled-2"></div>
-      <div class="dot dot-empty"></div>
+      <div class="dot dot-filled-3"></div>
       <div class="dot dot-empty"></div>
       <div class="dot dot-empty"></div>
     </div>
